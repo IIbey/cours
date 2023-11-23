@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Emerson</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-ermerson.css">
+</head>
+<body>
+    <div class="fond">
+    <img class="logo" src="image/logoe.jpg" alt="Logo Emerson">
+    <img class="partenaires" src="image/partenaires.jpg" alt="Partenaires direction">
+    <div class="navigation">
+        <ul class="lien">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="nos-groupes.html">Notre groupe</a></li>
+            <li><a href="nos-missions.html">Nos missions</a></li>
+            <li><a href="systemes-information.html">Systèmes d'information</a></li>
+            <li><a href="la-formation.html">La formation</a></li>
+            <li><a href="nous-rejoindre.html">Nous rejoindre</a></li>
+        </ul>
+    </div>
+    <div class="contenu">
+        <img class="image-contenu" src="image/contactus.jpg" alt="contact">
+    <div class="blocktext">
+        <div class="contactez-nous">
+            <h1>NOUS CONTACTER</h1>
+            <p class="contactdescription">Avez-vous des problèmes ? Des questions à nous poser ? Pour quelle raison souhaitez-vous nous contacter ?</p>
+            <form action="/page-traitement-donnees" method="post">
+            <div>
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Patrick" required>
+            </div>
+            <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+            <label for="sujet">Quelle est la raison de votre message ?</label>
+            <select name="sujet" id="sujet" required>
+            <option value="" disabled selected hidden>Choisissez la raison de votre message</option>
+            <option value="probleme-compte">Contacter le service commercial</option>
+            <option value="question-produit">Trouver un distributeur</option>
+            <option value="suivi-commande">Trouver un document</option>
+            <option value="suivi-commande">Vérifier un numéro de série</option>
+            <option value="autre">Une autre raison...</option>
+            </select>
+            </div>
+            <div>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je souhaite vous contacter pour les raisons suivantes..." required></textarea>
+            </div>
+            <div>
+            <button type="submit">Envoyer mon message</button>
+            </div>
+            </form>
+            </div>
+    </div>
+        </div> 
+ <div class="footer"><p class="mention">Ⓒ2008 | <a class="lienfooter" href="accueil">Mentions légales</a> | <a class="lienfooter" href="accueil">Plan du site</a> | <a class="lienfooter" href="nous-contacter.html">Nous contacter</a></p><p class="realisation">Une réalisation <a class="lienfooter" href="accueil">Graphik Channel</a></p>
+    </div>
+    </div>
+</body>
+</html>
